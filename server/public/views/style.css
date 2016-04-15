@@ -1,4 +1,39 @@
+* {
+    background-color: black;
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 80px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width:640px;
+    height:900px;
+    /*width: 100%;*/
+    /*margin: auto;*/
+}
+
 .item {
-    width: 800px;
-    height: 600px;
+    width: 700px ;
+    height: 700px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
